@@ -1,0 +1,12 @@
+{
+  "name": "lib-a",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "types": "./src/index.ts",
+  "keywords": [],
+  "packageManager": "pnpm@10.12.3"
+}

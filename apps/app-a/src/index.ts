@@ -1,3 +1,5 @@
-import { greet } from "@managing-typescript-packages-in-monorepos/lib-a";
+import { greet } from "lib-a";
+import { greet as greetb } from "lib-b";
 
-console.log(greet('john'))
+const app = document.getElementById("app")!;
+app.textContent = `${greet('John')} and ${greetb('John')}`;

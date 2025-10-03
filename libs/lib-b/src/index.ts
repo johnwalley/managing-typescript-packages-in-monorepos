@@ -1,3 +1,3 @@
 export const greet = (name: string): string => {
-    return `Hello ${name} from lib-bs!`;
+    return `Hello ${name} from lib-b!`;
 };
