@@ -9,15 +9,16 @@
   "types": "./src/index.ts",
   "keywords": [],
   "scripts": {
-    "build": ""
+    "build": "vite build",
+    "prepack": "pnpm run build && node scripts/make-publish-manifest.mjs"
   },
   "dependencies": {
     "lib-a": "workspace:*",
-    "lib-b": "workspace:*",
-    "vite": "npm:rolldown-vite@latest"
+    "lib-b": "workspace:*"
   },
   "packageManager": "pnpm@10.12.3",
   "devDependencies": {
-    "@types/node": "^24.6.2"
+    "@types/node": "^24.6.2",
+    "vite": "^7.1.9"
   }
 }

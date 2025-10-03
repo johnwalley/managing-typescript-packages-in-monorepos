@@ -12,7 +12,8 @@
   "packageManager": "pnpm@10.12.3",
   "dependencies": {
     "lib-a": "workspace:*",
-    "lib-b": "workspace:*"
+    "lib-b": "workspace:*",
+    "lib-c": "workspace:*"
   },
   "devDependencies": {
     "vite": "^7.1.9"

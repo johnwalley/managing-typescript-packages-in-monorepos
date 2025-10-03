@@ -7,7 +7,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 export default defineConfig({
     build: {
         lib: {
-            entry: resolve(__dirname, 'lib/main.js'),
+            entry: resolve(__dirname, 'src/index.ts'),
             name: 'libc',
             // the proper extensions will be added
             fileName: 'lib-c',
