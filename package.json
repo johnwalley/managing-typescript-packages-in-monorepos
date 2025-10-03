@@ -1,0 +1,14 @@
+{
+  "name": "managing-typescript-packages-in-monorepos",
+  "private": true,
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "tsx": "^4.1.0"
+  },
+  "scripts": {
+    "dev": "tsx --tsconfig tsconfig.base.json apps/app-a/src/index.ts",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "typecheck": "tsc --build --noEmit"
+  }
+}
