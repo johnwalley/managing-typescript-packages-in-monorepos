@@ -7,7 +7,6 @@
     ".": "./src/index.ts"
   },
   "types": "./dist/index.d.ts",
-  "keywords": [],
   "scripts": {
     "build": "vite build",
     "prepack": "pnpm run build && node scripts/make-publish-manifest.mjs"
